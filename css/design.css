@@ -1,3 +1,14 @@
-body{
-  background: white;
+body, html{
+  height: 100%;
+  margin: 0;
+}
+.parallax{
+  height: 60%;
+  width: 100%;
+  background-image: url('../img/parallax.png');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
