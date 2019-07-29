@@ -1,20 +1,5 @@
 /* This is the custom scroll bar */
-/* width */
+
 ::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #7b9bbd;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #65809c;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #369aff;
+    display: none;
 }

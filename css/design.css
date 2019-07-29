@@ -1,9 +1,10 @@
 body, html{
   height: 100%;
   margin: 0;
+  scroll-behavior: smooth;
 }
 .parallax{
-  height: 60%;
+  height: 70%;
   width: 100%;
   background-image: url('../img/parallax.png');
   background-position: center;
@@ -11,4 +12,59 @@ body, html{
   background-repeat: no-repeat;
   background-size: cover;
 
+}
+.title{
+  font-family: 'Righteous', cursive;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top : 0;
+  padding-top: 100px;
+  color: #e3e3e3;
+  font-size: 25px;
+}
+.fadeIn{
+  opacity: 1;
+}
+.subtitle{
+  margin-top: -20px;
+  color: #e3e3e3;
+  font-size: 20px;
+}
+.content{
+
+  position: relative;
+  background-color: white;
+}
+.profileImage{
+  width: 180px;
+  border-radius: 100%;
+  position: fixed;
+  margin : auto;
+  left: 0;
+  right: 0;
+  z-index: 3;
+
+}
+/* NAV BAR */
+
+#dropDown {
+  position: absolute;
+  color: white;
+  font-size: 35px;
+  border: 20px;
+  margin-top: 2px;
+  margin-left: 5px;
+  float: left;
+  z-index: 4;
+}
+#dropDown:hover{
+  color: #00aaff;
+}
+
+/* Footer */
+
+.footer{
+  height: 200px;
+  background-color: blue;
 }
