@@ -18,16 +18,56 @@
     <!-- Main js file -->
     <script src="js/main.js"></script>
     <script src="js/scrollFade.js"></script>
+    <script src="js/menu.js"></script>
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous|Lobster|Russo+one|Roboto+Mono&display=swap" rel="stylesheet">
     <!-- Font awesome -->
     <script src="https://kit.fontawesome.com/eae866a828.js"></script>
   </head>
   <!-- body -->
   <body>
-    <div class="navBar">
-      <i class="fas fa-bars" id="dropDown"></i>
-    </div>
+    <div id="fullNavBar">
+    <!-- <i class="fas fa-bars" id="dropDown"></i> -->
+
+
+    <nav>
+  <ul>
+    <li id="home">
+      <div class="home-icon">
+        <div class="roof">
+          <div class="roof-edge"></div>
+        </div>
+        <div class="front"></div>
+      </div>
+    </li>
+    <li id="about">
+      <div class="about-icon">
+        <div class="head">
+          <div class="eyes"></div>
+          <div class="beard"></div>
+        </div>
+      </div>
+    </li>
+    <li id="cv">
+      <div class="work-icon">
+        <div class="paper"></div>
+        <div class="lines"></div>
+        <div class="lines"></div>
+        <div class="lines"></div>
+      </div>
+    </li>
+    <li id="contact">
+      <div class="mail-icon">
+        <div class="mail-base">
+          <div class="mail-top"></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</nav>
+
+
+  </div>
     <div class="title">
       <div class="fadeIn">
         <h2>Sandu Victor</h2>
@@ -42,8 +82,37 @@
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </div>
-    <div class="footer">
-      This is the footer and it;s content
+
+
+
+    <div class="footer" id="footer">
+      <div class="col1">
+        <h3>Social media:</h3>
+        <ul>
+          <li> <a href="#"><i class="fas fa-blog"></i> Blog</a> </li>
+          <li> <a href="#"><i class="fab fa-youtube"></i> Youtube</a> </li>
+          <li> <a href="#"><i class="fab fa-twitch"></i> Twitch</a> </li>
+          <li> <a href="#"><i class="fab fa-twitter"></i> Twitter</a> </li>
+          <li> <a href="#" class="email"><i class="fas fa-envelope"></i> Email</a> </li>
+        </ul>
+      </div>
+      <div class="col2">
+        <h3>My Projects:</h3>
+        <ul>
+          <li><a href="#"><i class="fas fa-skull"></i> A simulation of x</a></li>
+          <li><a href="#"><i class="fas fa-paper-plane"></i> Many many things flying</a></li>
+          <li><a href="#"><i class="fas fa-project-diagram"></i> Not a logic gate simulator</a></li>
+          <li><a href="#"><i class="fas fa-weight-hanging"></i> Nicoval.io</a></li>
+          <li><a href="#"><i class="fas fa-file-code"></i> Another cool project</a></li>
+          <li><a href="#"><i class="fas fa-spinner"></i> This one is not done yet</a></li>
+        </ul>
+      </div>
+      <div class="col3">
+        <h3>Thank You!</h3>
+          <p>Thanks for checking out my website. I hope I either inspired you or determined you to be interested in me and my work.</p>
+          <p>If you want to send me a message, use one of the social links or use the contact form, I will try to respond as soon as I see the message.</p>
+      </div>
     </div>
+    <div class="copyright">copyright</div>
   </body>
 </html>
