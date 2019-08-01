@@ -1,12 +1,12 @@
-// This is a function for a fading effect for the main title
+//File for all fading effects on the page
 $(document).ready(function(){
 
   $(window).scroll(function(){
-      $(".fadeIn").css("opacity", 1 - $(window).scrollTop() / 150);
+      $(".fadeIn").css("opacity", 1 - $(window).scrollTop()/200);
     });
   $(window).scroll(function(){
       var minWid;
-      minWid = 180 - $(window).scrollTop()*1.5;
+      minWid = 200 - $(window).scrollTop();
       if(minWid < 0){
         minWid = 0;
       }
@@ -20,8 +20,8 @@ $(document).ready(function(){
 
   });
 $(window).scroll(function(){
-    $("nav").css("left", -40 - $(window).scrollTop()/3 );
+    $(".nav").css("opacity", 1-$(window).scrollTop()/400 );
+    $(".nav").css("top", 80 - $(window).scrollTop()/30 + "%" );
 });
-
 
 });

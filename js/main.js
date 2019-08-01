@@ -1,3 +1,4 @@
+///Main js file
 
 $(document).ready(function(){
   let today = new Date()
