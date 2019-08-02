@@ -20,7 +20,6 @@
     <!-- Main js file -->
     <script src="js/main.js"></script>
     <script src="js/scrollFade.js"></script>
-    <script src="js/menu.js"></script>
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Righteous|Lobster|Russo+one|Roboto+Mono&display=swap" rel="stylesheet">
     <!-- Font awesome -->
@@ -30,24 +29,25 @@
   <body>
     <div id="fullNavBar">
 <!-- NAV BUTTONS -->
-<div class="nav">
-<div class="button projects">
-  <a href="#footer" class="btn btn-white btn-animation-1">Projects</a>
+<div class="navContainer">
+  <div class="nav">
+  <div class="button projects">
+    <a href="#footer" class="btn btn-white btn-animation-1">Projects</a>
+  </div>
+  <div class="button resume">
+    <a href="doc/resume.pdf" class="btn btn-white btn-animation-1">Resume</a>
+  </div>
+  <div class="button home">
+    <a href="#" class="btn btn-white btn-animation-1">Blog</a>
+  </div>
+  <div class="button about">
+    <a href="#" class="btn btn-white btn-animation-1">About</a>
+  </div>
+  <div class="button contact">
+    <a href="#" class="btn btn-white btn-animation-1">Contact</a>
+  </div>
+  </div>
 </div>
-<div class="button resume">
-  <a href="doc/resume.pdf" class="btn btn-white btn-animation-1">Resume</a>
-</div>
-<div class="button home">
-  <a href="#" class="btn btn-white btn-animation-1">Blog</a>
-</div>
-<div class="button about">
-  <a href="#" class="btn btn-white btn-animation-1">About</a>
-</div>
-<div class="button contact">
-  <a href="#" class="btn btn-white btn-animation-1">Contact</a>
-</div>
-</div>
-
   </div>
     <div class="title">
       <img class="profileImage" src="img/profile.jpg" alt="Image cannot be displayed">
@@ -58,11 +58,43 @@
 
     </div>
     <div class="parallax"></div>
-    <div class="content">
-        <p>This is content</p>
-        <p>Here is going to be the pannels that have to unite using</p>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  <!-- Container -->
+    <div class="container">
+      <div class="card fromLeft">
+        <div class="card-left">
+          <div class="profileSocial">
+            <div class="profileCardus">
+            <img class="profileCard" src="img/profileCard.jpg" alt="Imgae cannot be displayed">
+            <div class="cardSocial">
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-twitch"></i></a>
+              <a href="#"><i class="fas fa-envelope"></i></a>
+              <a href="#"><i class="fas fa-blog"></i></a>
+              </div>
+            </div>
+            <div class="profileTitle">
+              Sandu Victor-Iulian
+              <ul>
+                <li class="aka">AKA Vyctor661</li>
+                <li>Web Developer</li>
+                <li>Gamer</li>
+                <li>Twitch streamer</li>
+                <li>Youtuber</li>
+                <li>Cool dude</li>
+                <li>Dreamer</li>
+                <li>Not a Yasuo main</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-right">
+          left content for right card lol
+        </div>
+      </div>
+
     </div>
 
 

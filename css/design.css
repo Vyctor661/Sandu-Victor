@@ -50,12 +50,19 @@ body, html{
 }
 
  /* NAV BUTTONS */
+.navContainer{
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    grid-template-columns: 100%;
+
+    grid-auto-flow: column;
+    display: grid;
+
+ }
 .nav{
-  position: absolute;
-  top: 80%;
-  width: 100%;
-  left: 50%;
-  margin-left: -365px;
+  margin: 0 auto;
+
 }
 
 .button{
@@ -133,8 +140,98 @@ body, html{
   }
 }
 /* Content here */
-.content{
-  margin-top: -16px;
+.container{
+
+}
+
+.fromLeft{
+  display: grid;
+  grid-template-columns: 580px auto;
+  grid-template-areas: "about-left about-right about-right";
+  grid-auto-flow: column;
+  height: 350px;
+  white-space: nowrap;
+  opacity: 1;
+  column-gap: 20px;
+  border-left: 10px solid #00bfff;
+}
+.card-left{
+  background: #262626;
+  padding: 20px;
+  margin-left: -30%;
+  opacity: 0;
+}
+.card-right{
+  padding: 20px;
+  opacity: 0;
+  margin-left: 30%;
+}
+.profileSocial{
+  display: flex;
+}
+.cardSocial{
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-top: 2px dotted grey;
+
+}
+.cardSocial i{
+  border: 2px solid white;
+  border-radius: 100px;
+  padding: 3px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+.cardSocial .fa-linkedin-in:hover{
+  background: #0077B5;
+  transition: 0.3s;
+}
+.cardSocial .fa-twitter:hover{
+  background: #1DA1F2;
+  transition: 0.3s;
+}
+.cardSocial .fa-twitch:hover{
+  background: #6441a5;
+  transition: 0.3s;
+}
+.cardSocial .fa-envelope:hover{
+  background: #D44638;
+  transition: 0.3s;
+}
+.cardSocial .fa-blog:hover{
+  background: #f57d00;
+  transition: 0.3s;
+}
+.profileCard{
+  height: 250px;
+  border: 2px solid white;
+}
+.profileCardus{
+  width: 250px;
+}
+.profileTitle{
+ padding-left: 30px;
+ font-family: 'Righteous', cursive;
+ color: white;
+ font-size: 25px;
+}
+.profileTitle ul{
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 18px;
+}
+.aka{
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 /* Footer */
