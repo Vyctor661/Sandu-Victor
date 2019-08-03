@@ -7,7 +7,7 @@ $(document).ready(function(){
     var docViewBottom = docViewTop + $(window).height();
 
     var elemTop = $(elem).offset().top;
-    var elemBottom = elemTop + $(elem).height();
+    var elemBottom = elemTop + 50;
 
     return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
 }
@@ -38,9 +38,13 @@ $(window).scroll(function(){
 
 ///This is for content cards
 $(window).scroll(function(){
-  if(isScrolledIntoView(".fromLeft")){
-    $(".card-left").animate({marginLeft: "0%", opacity: 1}, 400);
-    $(".card-right").animate({marginLeft: "0%", opacity: 1}, 400);
-  }
+  if(isScrolledIntoView(".container-about"))
+    $(".container-about").animate({opacity: 1, marginTop: 0}, 1000);
+  if(isScrolledIntoView(".hobbies"))
+    $(".hobbies").animate({opacity: 1, marginTop: 0}, 1000);
 });
+
+
+
+
 });
