@@ -287,7 +287,7 @@ body, html{
   width: 100%;
   font-family: 'Righteous', cursive;
   text-align: center;
-  background:#262626;
+  background:#808588;
 
 }
 .skill-details{
@@ -378,7 +378,7 @@ body, html{
 }
 .project:hover{
   opacity: 1;
-  transition: 0.8s;
+  transition: 0.6s;
 }
 .project-background1{
   background-image: url("../img/project1.png");
@@ -411,22 +411,28 @@ body, html{
   box-shadow: 0px 0px 12px -2px #000000;
 }
 
-.more-projects{
+ .more-projects{
   width: 100px;
-  height: 20px;
   position: relative;
   text-align: center;
-  color: white;
-  background: #107894;
-  border-radius: 3px;
-  padding: 10px;
   margin: 0 auto;
   margin-top: 20px;
   font-family: 'Righteous', cursive;
   transition: 0.4s;
 
 }
-.more-projects:hover{
+.more-button{
+  background: #107894;
+  border-radius: 3px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  display: block;
+  width: 100px;
+  height: 20px;
+}
+
+.more-button:hover{
   background: #00bfff;
   transition: 0.4s;
 }
