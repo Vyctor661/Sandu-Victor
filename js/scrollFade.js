@@ -1,6 +1,7 @@
 //File for all fading effects on the page
 $(document).ready(function(){
 
+
   function isScrolledIntoView(elem)
 {
     var docViewTop = $(window).scrollTop();
@@ -38,10 +39,21 @@ $(window).scroll(function(){
 
 ///This is for content cards
 $(window).scroll(function(){
-  if(isScrolledIntoView(".container-about"))
-    $(".container-about").animate({opacity: 1, marginTop: 0}, 1000);
+  if(isScrolledIntoView(".container-about")){
+    $(".container-about").animate({opacity: 1, marginTop: 0,marginBottom:0}, 1000);
+  }
   if(isScrolledIntoView(".hobbies"))
-    $(".hobbies").animate({opacity: 1, marginTop: 0}, 1000);
+    $(".hobbies").animate({opacity: 1, marginTop: 0,marginBottom:0}, 1000);
+
+  if(isScrolledIntoView(".Skills")){
+    $(".skillus").animate({opacity: 1, marginTop: 0,marginBottom:0}, 2000);
+    $(".HTML").animate({width: 90+"%"}, 2000);
+    $(".CSS").animate({width: 80+"%"}, 2000);
+    $(".JS").animate({width: 50+"%"}, 2000);
+    $(".JQuery").animate({width: 40+"%"}, 2000);
+    $(".Git").animate({width: 75+"%"}, 2000);
+}
+
 });
 
 

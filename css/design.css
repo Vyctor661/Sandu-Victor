@@ -145,7 +145,8 @@ body, html{
 }
 
 .container-about{
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom:-50px;
   opacity: 0;
   width: 100%;
   padding-top: 70px;
@@ -208,15 +209,12 @@ body, html{
 
 }
 
-
-
-
 .container-name{
   font-family: 'Righteous', cursive;
     font-size: 25px;
     text-align: center;
     width: 200px;
-    color: #00bfff;
+    color: #107894;
     border-bottom: 1px dashed black;
 }
 .container-fix{
@@ -235,10 +233,13 @@ body, html{
 }
 
 
+/* HOBBIES */
+
 .hobbies{
   height: 400px;
   background: #f8f9fa;
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: -50px;
   opacity: 0;
 
 }
@@ -257,7 +258,7 @@ body, html{
 
 }
 .Gaming,.Streaming,.Biking,.Comunity{
-  font-family: 'Roboto mono', cursive;
+  font-family: 'Roboto mono', monospace;
   padding: 20px;
   text-align: center;
   font-size: 15px;
@@ -279,8 +280,68 @@ body, html{
   color: 	#7289da;
 }
 
+/* SKILLS */
+.Skills{
+  padding-top: 50px;
+  height: 400px;
+  width: 100%;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  background-image: url("../img/broken_noise.png");
 
+}
+.skill-details{
+  height: 200px;
+  width: 200px;
+}
+.skillus{
+  position: relative;
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: -50px;
+  opacity: 0;
+}
+.skillus p{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto mono', monospace;
+}
+.HTML-skill,.CSS-skill,.JS-skill,.JQuery-skill,.Git-skill{
+  border:1px solid white;
+  border-radius: 2px;
+  margin: 15px;
+  color: white;
+  font-family: 'Righteous', cursive;
+  text-align: left;
+  background: white;
 
+}
+.HTML,.CSS,.JS,.JQuery,.Git{
+  border-radius: 2px;
+  padding-left: 5px;
+}
+.HTML{
+  width: 20%;
+  background-image: linear-gradient(to right top, #00ace5, #27b9e4, #45c5e3, #62d0e1, #7ddbe0);
+}
+.CSS{
+  width: 20%;
+  background-image: linear-gradient(to right top, #00ace5, #27b9e4, #45c5e3, #62d0e1, #7ddbe0);
+}
+.JS{
+  width: 20%;
+  background-image: linear-gradient(to right top, #00ace5, #27b9e4, #45c5e3, #62d0e1, #7ddbe0);
+}
+.JQuery{
+  width: 20%;
+  background-image: linear-gradient(to right top, #00ace5, #27b9e4, #45c5e3, #62d0e1, #7ddbe0);
+}
+.Git{
+  width: 20%;
+  background-image: linear-gradient(to right top, #00ace5, #27b9e4, #45c5e3, #62d0e1, #7ddbe0);
+}
 
 
 /* Footer */
