@@ -14,7 +14,7 @@ $(document).ready(function(){
   $(".copyright").html("Copyright &copy; " + year + " All rights reserved.");
 
   $(".copyright").hover(function(){
-      $(".copyright").html("Nah JK, but please don't copy my website.You are a good person if you didn't do it :p");
+      $(".copyright").html("Nah JK, but please be nice and don't copy my website. :p");
   },
     function(){
       $(".copyright").html("Copyright &copy; " + year + " All rights reserved.");

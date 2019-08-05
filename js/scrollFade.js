@@ -53,6 +53,9 @@ $(window).scroll(function(){
     $(".JQuery").animate({width: 40+"%"}, 2000);
     $(".Git").animate({width: 75+"%"}, 2000);
 }
+  if(isScrolledIntoView(".Projects"))
+    $(".Projects").animate({opacity: 1, marginTop: 0,marginBottom:0}, 1000);
+
 
 });
 
