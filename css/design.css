@@ -437,10 +437,49 @@ body, html{
   transition: 0.4s;
 }
 
+
+/* Contact container */
+
+.ContactFix{
+  height: 100px;
+  background: #262626;
+  display: grid;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.ContactMe{
+  width: 150px;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Righteous', cursive;
+  transition: 0.4s;
+}
+.ContactMe a{
+  background: #107894;
+  border-radius: 3px;
+  padding: 10px;
+  padding-top: 15px;
+  color: white;
+  text-decoration: none;
+  display: block;
+  width: 150px;
+  height: 30px;
+}
+.ContactMe a:hover{
+  background: #00bfff;
+  transition: 0.4s;
+}
+
+
+
 /* Footer */
 
 .footer{
-  height: 200px;
+  height: 250px;
   background-color: #262626;
 
   grid-template-columns: 33% 33% 33%;
@@ -453,9 +492,14 @@ body, html{
   font-family: 'Roboto Mono', monospace;
   font-size: 15px;
   color:white;
-  border-left: 10px solid #00bfff;
+  justify-content: center;
+  align-items: center;
 }
-
+.col1{
+  height: 200px;
+  border-left: 1px solid grey;
+  padding-left: 20px;
+}
 .col1 ul{
   list-style-type: none;
   margin: 0;
@@ -464,6 +508,7 @@ body, html{
 .col1 ul a{
   color: white;
   text-decoration: none;
+
 }
 .col1 ul a:hover{
   color: white;
@@ -472,7 +517,11 @@ body, html{
   cursor: context-menu;
 }
 
-
+.col2{
+  height: 200px;
+  border-left: 1px solid grey;
+  padding-left: 20px;
+}
 .col2 ul{
   list-style-type: none;
   margin: 0;
@@ -481,6 +530,7 @@ body, html{
 .col2 ul a{
   color: white;
   text-decoration: none;
+
 }
 .col2 ul a:hover{
     color: #00bfff;
@@ -488,8 +538,12 @@ body, html{
 }
 
 .col3 {
+  height: 200px;
   font-size: 13px;
   padding-right: 15px;
+  border-left: 1px solid grey;
+  padding-left: 20px;
+
 }
 
 
@@ -498,7 +552,6 @@ body, html{
   font-size: 10px;
   text-align: center;
   background-color: #262626;
-  border-left: 10px solid #00bfff;
   padding-bottom: 5px;
   color: grey;
 }
